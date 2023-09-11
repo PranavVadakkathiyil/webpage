@@ -1,0 +1,61 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Caveat&family=Fragment+Mono&family=IBM+Plex+Mono:wght@600&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Teko:wght@300;500&family=Tilt+Neon&family=Ubuntu:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 100%;
+    background-color: #1b263b;
+    color: aliceblue;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    z-index: 99;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.right{
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    cursor: pointer;
+    font-size: 20px;
+    padding-right:20px ;
+    color: aliceblue;
+}
+.right button{
+    font-weight:700 ;
+    color:aliceblue ;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,31,73,1) 23%, rgba(0,212,255,1) 100%);
+    width: 100px;
+    border-radius: 25px;
+    text-transform: uppercase;
+
+}
+button:hover{
+    background:#003566;
+    transition: margin-right 0.40s;
+    transition-property:background;
+    
+
+}
+.center{
+    transform: translateX(110px);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 34px;
+}
+.left .logo {
+padding-left: 50px;
+}
